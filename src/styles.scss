@@ -1,1 +1,48 @@
 /* You can add global styles to this file, and also import other style files */
+
+// html, body { height: 100%; }
+// body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+@use '@angular/material' as mat;
+
+@include mat.core();
+
+// Define theme
+$primary: mat.m2-define-palette(mat.$m2-indigo-palette);
+$accent: mat.m2-define-palette(mat.$m2-pink-palette);
+$warn: mat.m2-define-palette(mat.$m2-red-palette);
+
+$theme: mat.m2-define-light-theme((
+    color: (
+        primary: $primary,
+        accent: $accent,
+        warn: $warn,
+    ),
+    typography: mat.m2-define-typography-config(),
+    density: 0,
+));
+
+// Include theme styles
+@include mat.all-component-themes($theme);
+
+// Global styles
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    background-color: #fafafa;
+}
+
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+// Angular Material overrides
+.mat-mdc-card {
+    margin-bottom: 20px;
+}
+
+.mat-mdc-form-field {
+    width: 100%;
+}

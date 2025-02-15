@@ -1,0 +1,14 @@
+<div class="dialog-container">
+    <h2 mat-dialog-title class="dialog-title">
+        <mat-icon aria-hidden="true">{{data.titleIcon}}</mat-icon>
+        {{data.title}}
+    </h2>
+    <div mat-dialog-content class="dialog-content">
+        <p>{{data.message}}</p>
+    </div>
+    <div mat-dialog-actions align="end" class="dialog-actions">
+        <button mat-button mat-dialog-close cdkFocusInitial class="ok-button" (click)="onCancel()">{{data.closeButtonName !== null ||
+            data.closeButtonName != ''
+            ? data.closeButtonName : 'OK' }}</button>
+    </div>
+</div>

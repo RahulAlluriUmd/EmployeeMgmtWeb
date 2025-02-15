@@ -1,0 +1,38 @@
+.employee-list-container {
+    padding: 20px;
+
+    .actions-container {
+        display: grid;
+        grid-template-columns: 1fr auto auto;
+        gap: 20px;
+        align-items: center;
+        margin-bottom: 20px;
+
+        mat-form-field {
+            width: 100%;
+            max-width: 400px;
+        }
+
+        button {
+            background-color: #b0e2f9;
+        }
+    }
+
+    .table-container {
+        overflow: auto;
+        
+        table {
+            width: 100%;
+            
+            .mat-column-actions {
+                width: 70px;
+                text-align: center;
+            }
+            
+            // .mat-column-currentSalary {
+            //     text-align: center;
+            //     // padding-right: 24px;
+            // }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+.employee-form-container {
+    .form-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+        margin-bottom: 16px;
+
+        // Full width items
+        .full-width {
+            grid-column: 1 / -1;
+        }
+
+        mat-form-field {
+            width: 100%;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .form-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+}

@@ -1,0 +1,55 @@
+[
+    {
+        "name": "Samuel",
+        "ssn": 234869345,
+        "dob": "1997-02-14T06:24:23.039Z",
+        "address": "5111 Glof Dr",
+        "city": "Dearborn",
+        "state": "MI",
+        "zip": 48126,
+        "phonenumber": 4524883246,
+        "joinDate": "2022-02-14T06:24:23.039Z",
+        "exitDate": "9999-12-31",
+        "employeeSalaries": [
+          {
+            "fromDate": "2022-02-14",
+            "toDate": "2024-02-14",
+            "title": "Software Engineer",
+            "salary": 120000
+          },
+          {
+            "fromDate": "2024-02-15",
+            "toDate": "9999-12-31",
+            "title": "Senior Software Engineer",
+            "salary": 160000
+          }
+        ]
+      },
+      {
+        "name": "Samuel",
+        "ssn": 234869345,
+        "dob": "1997-02-14T06:24:23.039Z",
+        "address": "5111 Glof Dr",
+        "city": "Dearborn",
+        "state": "MI",
+        "zip": 48126,
+        "phonenumber": 4524883246,
+        "joinDate": "2022-02-14T06:24:23.039Z",
+        "exitDate": "9999-12-31",
+        "employeeSalaries": [
+          {
+            "fromDate": "2022-02-14",
+            "toDate": "2024-02-14",
+            "title": "Software Engineer",
+            "salary": 120000
+          },
+          {
+            "fromDate": "2024-02-15",
+            "toDate": "9999-12-31",
+            "title": "Senior Software Engineer",
+            "salary": 160000
+          }
+        ]
+      }
+    
+]
