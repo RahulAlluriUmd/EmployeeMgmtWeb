@@ -1,55 +1,1404 @@
 [
-    {
-        "name": "Samuel",
-        "ssn": 234869345,
-        "dob": "1997-02-14T06:24:23.039Z",
-        "address": "5111 Glof Dr",
-        "city": "Dearborn",
-        "state": "MI",
-        "zip": 48126,
-        "phonenumber": 4524883246,
-        "joinDate": "2022-02-14T06:24:23.039Z",
-        "exitDate": "9999-12-31",
-        "employeeSalaries": [
-          {
-            "fromDate": "2022-02-14",
-            "toDate": "2024-02-14",
-            "title": "Software Engineer",
-            "salary": 120000
-          },
-          {
-            "fromDate": "2024-02-15",
-            "toDate": "9999-12-31",
-            "title": "Senior Software Engineer",
-            "salary": 160000
-          }
-        ]
+  {
+    "name": "Kaylah Zulauf",
+    "ssn": 601141256,
+    "dob": "1974-05-26T00:00:00",
+    "address": "4835 Mohamed Canyon",
+    "city": "West Lyric",
+    "state": "MD",
+    "zip": 75318,
+    "phonenumber": 6122797560,
+    "joinDate": "2001-01-17T00:00:00",
+    "exitDate": "0001-01-01T00:00:00",
+    "employeeSalaries": [
+      {
+        "fromDate": "1987-12-20",
+        "toDate": "9999-12-31",
+        "title": "Lead Developer",
+        "salary": 125350.72
+      }
+    ]
+  },
+  {
+    "name": "Braden Langosh",
+    "ssn": 462187612,
+    "dob": "1963-11-30T00:00:00",
+    "address": "385 Rodriguez Way",
+    "city": "Port Edisonchester",
+    "state": "AK",
+    "zip": 9144,
+    "phonenumber": 5478636079,
+    "joinDate": "1987-12-20T00:00:00",
+    "exitDate": "0001-01-01T00:00:00",
+    "employeeSalaries": [
+      {
+        "fromDate": "2021-08-27",
+        "toDate": "2023-04-27",
+        "title": "QA Engineer",
+        "salary": 94668.27
       },
       {
-        "name": "Samuel",
-        "ssn": 234869345,
-        "dob": "1997-02-14T06:24:23.039Z",
-        "address": "5111 Glof Dr",
-        "city": "Dearborn",
-        "state": "MI",
-        "zip": 48126,
-        "phonenumber": 4524883246,
-        "joinDate": "2022-02-14T06:24:23.039Z",
-        "exitDate": "9999-12-31",
-        "employeeSalaries": [
-          {
-            "fromDate": "2022-02-14",
-            "toDate": "2024-02-14",
-            "title": "Software Engineer",
-            "salary": 120000
-          },
-          {
-            "fromDate": "2024-02-15",
-            "toDate": "9999-12-31",
-            "title": "Senior Software Engineer",
-            "salary": 160000
-          }
-        ]
+        "fromDate": "2023-04-28",
+        "toDate": "9999-12-31",
+        "title": "Software Engineer",
+        "salary": 94176.27
       }
-    
+    ]
+  },
+  {
+    "name": "Jewell Ebert",
+    "ssn": 455323810,
+    "dob": "1998-12-28T00:00:00",
+    "address": "8082 Ali Ville",
+    "city": "Gorczanystad",
+    "state": "WA",
+    "zip": 68016,
+    "phonenumber": 6744206145,
+    "joinDate": "2021-08-27T00:00:00",
+    "exitDate": "0001-01-01T00:00:00",
+    "employeeSalaries": [
+      {
+        "fromDate": "2020-07-17",
+        "toDate": "9999-12-31",
+        "title": "Software Engineer",
+        "salary": 88192.16
+      }
+    ]
+  },
+  {
+    "name": "Armand Oberbrunner",
+    "ssn": 732583975,
+    "dob": "1993-12-02T00:00:00",
+    "address": "57681 Lind Fall",
+    "city": "South Makennaborough",
+    "state": "AR",
+    "zip": 2273,
+    "phonenumber": 3061670058,
+    "joinDate": "2020-07-17T00:00:00",
+    "exitDate": "0001-01-01T00:00:00",
+    "employeeSalaries": [
+      {
+        "fromDate": "2022-08-17",
+        "toDate": "9999-12-31",
+        "title": "Data Scientist",
+        "salary": 140742.56
+      }
+    ]
+  },
+  {
+    "name": "Shannon Tillman",
+    "ssn": 634815400,
+    "dob": "1977-03-03T00:00:00",
+    "address": "19188 Ned Rapid",
+    "city": "Spinkachester",
+    "state": "IA",
+    "zip": 74521,
+    "phonenumber": 9152318104,
+    "joinDate": "2022-08-17T00:00:00",
+    "exitDate": "0001-01-01T00:00:00",
+    "employeeSalaries": [
+      {
+        "fromDate": "2018-05-04",
+        "toDate": "2021-04-04",
+        "title": "Lead Developer",
+        "salary": 148108.3
+      },
+      {
+        "fromDate": "2021-04-05",
+        "toDate": "2022-08-05",
+        "title": "Software Engineer",
+        "salary": 91400.38
+      },
+      {
+        "fromDate": "2022-08-06",
+        "toDate": "9999-12-31",
+        "title": "Project Manager",
+        "salary": 132560.88
+      }
+    ]
+  },
+  {
+    "name": "Jaqueline Rippin",
+    "ssn": 133906926,
+    "dob": "1971-03-18T00:00:00",
+    "address": "73199 Mavis Stravenue",
+    "city": "Larkinmouth",
+    "state": "WA",
+    "zip": 87605,
+    "phonenumber": 69883844,
+    "joinDate": "2018-05-04T00:00:00",
+    "exitDate": "0001-01-01T00:00:00",
+    "employeeSalaries": [
+      {
+        "fromDate": "2010-01-30",
+        "toDate": "2011-09-30",
+        "title": "UI/UX Designer",
+        "salary": 114014.95
+      },
+      {
+        "fromDate": "2011-10-01",
+        "toDate": "2014-04-01",
+        "title": "UI/UX Designer",
+        "salary": 98013.27
+      },
+      {
+        "fromDate": "2014-04-02",
+        "toDate": "9999-12-31",
+        "title": "Business Analyst",
+        "salary": 108172.63
+      }
+    ]
+  },
+  {
+    "name": "Dewayne Jones",
+    "ssn": 525820040,
+    "dob": "1979-07-08T00:00:00",
+    "address": "05984 Cullen Corner",
+    "city": "North Deiontown",
+    "state": "OH",
+    "zip": 79908,
+    "phonenumber": 9177089646,
+    "joinDate": "2010-01-30T00:00:00",
+    "exitDate": "0001-01-01T00:00:00",
+    "employeeSalaries": [
+      {
+        "fromDate": "2016-03-24",
+        "toDate": "2017-06-24",
+        "title": "DevOps Engineer",
+        "salary": 107976.45
+      },
+      {
+        "fromDate": "2017-06-25",
+        "toDate": "2019-11-25",
+        "title": "Senior Software Engineer",
+        "salary": 145324.6
+      },
+      {
+        "fromDate": "2019-11-26",
+        "toDate": "2022-01-26",
+        "title": "Lead Developer",
+        "salary": 135440.5
+      },
+      {
+        "fromDate": "2022-01-27",
+        "toDate": "9999-12-31",
+        "title": "UI/UX Designer",
+        "salary": 83334.04
+      }
+    ]
+  },
+  {
+    "name": "Branson Koepp",
+    "ssn": 135030511,
+    "dob": "1979-12-29T00:00:00",
+    "address": "514 Donny Radial",
+    "city": "Buckridgehaven",
+    "state": "TX",
+    "zip": 58109,
+    "phonenumber": 1814081434,
+    "joinDate": "2016-03-24T00:00:00",
+    "exitDate": "0001-01-01T00:00:00",
+    "employeeSalaries": [
+      {
+        "fromDate": "2021-07-10",
+        "toDate": "9999-12-31",
+        "title": "DevOps Engineer",
+        "salary": 124779.36
+      }
+    ]
+  },
+  {
+    "name": "Jackeline Keebler",
+    "ssn": 261651437,
+    "dob": "1976-08-20T00:00:00",
+    "address": "374 Kreiger Villages",
+    "city": "Ullrichberg",
+    "state": "NY",
+    "zip": 62384,
+    "phonenumber": 2166259433,
+    "joinDate": "2021-07-10T00:00:00",
+    "exitDate": "0001-01-01T00:00:00",
+    "employeeSalaries": [
+      {
+        "fromDate": "2023-03-29",
+        "toDate": "2025-03-29",
+        "title": "DevOps Engineer",
+        "salary": 115652.88
+      },
+      {
+        "fromDate": "2025-03-30",
+        "toDate": "2027-07-30",
+        "title": "Lead Developer",
+        "salary": 160244.86
+      },
+      {
+        "fromDate": "2027-07-31",
+        "toDate": "9999-12-31",
+        "title": "Software Engineer",
+        "salary": 104228.53
+      }
+    ]
+  },
+  {
+    "name": "Geoffrey Lang",
+    "ssn": 464064204,
+    "dob": "1968-02-22T00:00:00",
+    "address": "1050 Bernhard Divide",
+    "city": "Christinamouth",
+    "state": "SD",
+    "zip": 801,
+    "phonenumber": 1707801381,
+    "joinDate": "2023-03-29T00:00:00",
+    "exitDate": "0001-01-01T00:00:00",
+    "employeeSalaries": [
+      {
+        "fromDate": "2024-10-16",
+        "toDate": "2025-11-16",
+        "title": "Software Engineer",
+        "salary": 110157.97
+      },
+      {
+        "fromDate": "2025-11-17",
+        "toDate": "2028-06-17",
+        "title": "QA Engineer",
+        "salary": 65315.75
+      },
+      {
+        "fromDate": "2028-06-18",
+        "toDate": "9999-12-31",
+        "title": "Software Engineer",
+        "salary": 92281.32
+      }
+    ]
+  },
+  {
+    "name": "Vilma Considine",
+    "ssn": 329270687,
+    "dob": "2002-09-22T00:00:00",
+    "address": "431 Howell Terrace",
+    "city": "West Carmellaburgh",
+    "state": "KS",
+    "zip": 53445,
+    "phonenumber": 5259164662,
+    "joinDate": "2024-10-16T00:00:00",
+    "exitDate": "0001-01-01T00:00:00",
+    "employeeSalaries": [
+      {
+        "fromDate": "2003-08-25",
+        "toDate": "2005-08-25",
+        "title": "Software Engineer",
+        "salary": 100511.09
+      },
+      {
+        "fromDate": "2005-08-26",
+        "toDate": "9999-12-31",
+        "title": "Product Manager",
+        "salary": 155680.75
+      }
+    ]
+  },
+  {
+    "name": "Brendon Hackett",
+    "ssn": 718445135,
+    "dob": "1972-11-30T00:00:00",
+    "address": "368 Schmidt Mountains",
+    "city": "Cassinborough",
+    "state": "ND",
+    "zip": 85026,
+    "phonenumber": 929752576,
+    "joinDate": "2003-08-25T00:00:00",
+    "exitDate": "0001-01-01T00:00:00",
+    "employeeSalaries": [
+      {
+        "fromDate": "2009-12-12",
+        "toDate": "2011-06-12",
+        "title": "Software Engineer",
+        "salary": 109170.99
+      },
+      {
+        "fromDate": "2011-06-13",
+        "toDate": "2014-04-13",
+        "title": "Product Manager",
+        "salary": 145738.4
+      },
+      {
+        "fromDate": "2014-04-14",
+        "toDate": "9999-12-31",
+        "title": "Product Manager",
+        "salary": 126019.99
+      }
+    ]
+  },
+  {
+    "name": "Sabryna Gaylord",
+    "ssn": 12010638,
+    "dob": "1985-04-14T00:00:00",
+    "address": "37699 Deborah Hill",
+    "city": "Anitabury",
+    "state": "AZ",
+    "zip": 89756,
+    "phonenumber": 6458717044,
+    "joinDate": "2009-12-12T00:00:00",
+    "exitDate": "0001-01-01T00:00:00",
+    "employeeSalaries": [
+      {
+        "fromDate": "2024-01-28",
+        "toDate": "9999-12-31",
+        "title": "Business Analyst",
+        "salary": 106700.69
+      }
+    ]
+  },
+  {
+    "name": "Harold Kiehn",
+    "ssn": 415386166,
+    "dob": "1987-07-13T00:00:00",
+    "address": "242 Hermiston Run",
+    "city": "West Gabrielshire",
+    "state": "WY",
+    "zip": 68352,
+    "phonenumber": 626469231,
+    "joinDate": "2024-01-28T00:00:00",
+    "exitDate": "0001-01-01T00:00:00",
+    "employeeSalaries": [
+      {
+        "fromDate": "1989-06-29",
+        "toDate": "1991-08-29",
+        "title": "Business Analyst",
+        "salary": 95338.29
+      },
+      {
+        "fromDate": "1991-08-30",
+        "toDate": "1993-08-30",
+        "title": "Project Manager",
+        "salary": 130207.73
+      },
+      {
+        "fromDate": "1993-08-31",
+        "toDate": "9999-12-31",
+        "title": "Product Manager",
+        "salary": 108662.59
+      }
+    ]
+  },
+  {
+    "name": "Ted Terry",
+    "ssn": 128447923,
+    "dob": "1966-10-19T00:00:00",
+    "address": "876 Schinner Parks",
+    "city": "Katrinaborough",
+    "state": "KY",
+    "zip": 27298,
+    "phonenumber": 3234559822,
+    "joinDate": "1989-06-29T00:00:00",
+    "exitDate": "0001-01-01T00:00:00",
+    "employeeSalaries": [
+      {
+        "fromDate": "2003-08-16",
+        "toDate": "2005-05-16",
+        "title": "Product Manager",
+        "salary": 147542.1
+      },
+      {
+        "fromDate": "2005-05-17",
+        "toDate": "2006-11-17",
+        "title": "Project Manager",
+        "salary": 106375.48
+      },
+      {
+        "fromDate": "2006-11-18",
+        "toDate": "2008-12-18",
+        "title": "Data Scientist",
+        "salary": 130817.88
+      },
+      {
+        "fromDate": "2008-12-19",
+        "toDate": "9999-12-31",
+        "title": "Senior Software Engineer",
+        "salary": 121653.22
+      }
+    ]
+  },
+  {
+    "name": "Birdie Dooley",
+    "ssn": 528730195,
+    "dob": "1975-04-03T00:00:00",
+    "address": "546 Fisher Ville",
+    "city": "West Chetview",
+    "state": "AZ",
+    "zip": 15212,
+    "phonenumber": 7735570116,
+    "joinDate": "2003-08-16T00:00:00",
+    "exitDate": "0001-01-01T00:00:00",
+    "employeeSalaries": [
+      {
+        "fromDate": "2012-07-08",
+        "toDate": "2013-08-08",
+        "title": "Senior Software Engineer",
+        "salary": 125848.95
+      },
+      {
+        "fromDate": "2013-08-09",
+        "toDate": "2015-01-09",
+        "title": "Senior Software Engineer",
+        "salary": 123076.09
+      },
+      {
+        "fromDate": "2015-01-10",
+        "toDate": "2016-09-10",
+        "title": "Lead Developer",
+        "salary": 130081.02
+      },
+      {
+        "fromDate": "2016-09-11",
+        "toDate": "9999-12-31",
+        "title": "DevOps Engineer",
+        "salary": 108575.12
+      }
+    ]
+  },
+  {
+    "name": "Kaden Bechtelar",
+    "ssn": 93453333,
+    "dob": "1985-11-26T00:00:00",
+    "address": "31849 Guadalupe Locks",
+    "city": "New Lia",
+    "state": "LA",
+    "zip": 54027,
+    "phonenumber": 2446916070,
+    "joinDate": "2012-07-08T00:00:00",
+    "exitDate": "0001-01-01T00:00:00",
+    "employeeSalaries": [
+      {
+        "fromDate": "2015-03-03",
+        "toDate": "2016-08-03",
+        "title": "Data Scientist",
+        "salary": 142747.1
+      },
+      {
+        "fromDate": "2016-08-04",
+        "toDate": "2018-09-04",
+        "title": "Project Manager",
+        "salary": 121963.84
+      },
+      {
+        "fromDate": "2018-09-05",
+        "toDate": "9999-12-31",
+        "title": "DevOps Engineer",
+        "salary": 123551.52
+      }
+    ]
+  },
+  {
+    "name": "Mattie Conroy",
+    "ssn": 462987662,
+    "dob": "1971-11-08T00:00:00",
+    "address": "711 Buford Rest",
+    "city": "New Clementine",
+    "state": "MD",
+    "zip": 10816,
+    "phonenumber": 9176754361,
+    "joinDate": "2015-03-03T00:00:00",
+    "exitDate": "0001-01-01T00:00:00",
+    "employeeSalaries": [
+      {
+        "fromDate": "2016-01-01",
+        "toDate": "2017-04-01",
+        "title": "Product Manager",
+        "salary": 96484.1
+      },
+      {
+        "fromDate": "2017-04-02",
+        "toDate": "9999-12-31",
+        "title": "Software Engineer",
+        "salary": 98151.69
+      }
+    ]
+  },
+  {
+    "name": "Jessyca Littel",
+    "ssn": 890650243,
+    "dob": "1972-09-04T00:00:00",
+    "address": "61353 Kimberly Turnpike",
+    "city": "East Loraburgh",
+    "state": "FL",
+    "zip": 40137,
+    "phonenumber": 1568435257,
+    "joinDate": "2016-01-01T00:00:00",
+    "exitDate": "0001-01-01T00:00:00",
+    "employeeSalaries": [
+      {
+        "fromDate": "2020-08-06",
+        "toDate": "9999-12-31",
+        "title": "DevOps Engineer",
+        "salary": 117262.88
+      }
+    ]
+  },
+  {
+    "name": "Jakayla Stamm",
+    "ssn": 198270385,
+    "dob": "1996-01-27T00:00:00",
+    "address": "9949 Trinity Place",
+    "city": "North Bo",
+    "state": "WI",
+    "zip": 11324,
+    "phonenumber": 1502215615,
+    "joinDate": "2020-08-06T00:00:00",
+    "exitDate": "0001-01-01T00:00:00",
+    "employeeSalaries": [
+      {
+        "fromDate": "2009-12-24",
+        "toDate": "9999-12-31",
+        "title": "Senior Software Engineer",
+        "salary": 143557.77
+      }
+    ]
+  },
+  {
+    "name": "Josefa Lueilwitz",
+    "ssn": 380109934,
+    "dob": "1978-05-07T00:00:00",
+    "address": "85116 Predovic Union",
+    "city": "Lake Pamelashire",
+    "state": "ND",
+    "zip": 6241,
+    "phonenumber": 7508245741,
+    "joinDate": "2009-12-24T00:00:00",
+    "exitDate": "0001-01-01T00:00:00",
+    "employeeSalaries": [
+      {
+        "fromDate": "2022-06-10",
+        "toDate": "2024-06-10",
+        "title": "Software Engineer",
+        "salary": 119261.92
+      },
+      {
+        "fromDate": "2024-06-11",
+        "toDate": "2026-04-11",
+        "title": "Software Engineer",
+        "salary": 100991.59
+      },
+      {
+        "fromDate": "2026-04-12",
+        "toDate": "2029-02-12",
+        "title": "Product Manager",
+        "salary": 101596.7
+      },
+      {
+        "fromDate": "2029-02-13",
+        "toDate": "9999-12-31",
+        "title": "Product Manager",
+        "salary": 123378.12
+      }
+    ]
+  },
+  {
+    "name": "Hellen Schneider",
+    "ssn": 289337511,
+    "dob": "2000-04-09T00:00:00",
+    "address": "399 Arden Ports",
+    "city": "Marquardthaven",
+    "state": "MI",
+    "zip": 98310,
+    "phonenumber": 2835243312,
+    "joinDate": "2022-06-10T00:00:00",
+    "exitDate": "0001-01-01T00:00:00",
+    "employeeSalaries": [
+      {
+        "fromDate": "2022-04-08",
+        "toDate": "2023-07-08",
+        "title": "QA Engineer",
+        "salary": 88003.32
+      },
+      {
+        "fromDate": "2023-07-09",
+        "toDate": "9999-12-31",
+        "title": "DevOps Engineer",
+        "salary": 119989.5
+      }
+    ]
+  },
+  {
+    "name": "Alford Fritsch",
+    "ssn": 215928453,
+    "dob": "1999-05-02T00:00:00",
+    "address": "31678 Cassie Divide",
+    "city": "Marchaven",
+    "state": "ND",
+    "zip": 970,
+    "phonenumber": 4012875389,
+    "joinDate": "2022-04-08T00:00:00",
+    "exitDate": "0001-01-01T00:00:00",
+    "employeeSalaries": [
+      {
+        "fromDate": "2016-01-20",
+        "toDate": "9999-12-31",
+        "title": "Software Engineer",
+        "salary": 76984.82
+      }
+    ]
+  },
+  {
+    "name": "Freddie Green",
+    "ssn": 563202973,
+    "dob": "1976-05-02T00:00:00",
+    "address": "587 Loma Dale",
+    "city": "Leonoratown",
+    "state": "OH",
+    "zip": 82706,
+    "phonenumber": 8082291777,
+    "joinDate": "2016-01-20T00:00:00",
+    "exitDate": "0001-01-01T00:00:00",
+    "employeeSalaries": [
+      {
+        "fromDate": "2019-03-16",
+        "toDate": "2021-06-16",
+        "title": "Senior Software Engineer",
+        "salary": 135606.67
+      },
+      {
+        "fromDate": "2021-06-17",
+        "toDate": "2023-07-17",
+        "title": "Product Manager",
+        "salary": 106332.09
+      },
+      {
+        "fromDate": "2023-07-18",
+        "toDate": "2025-05-18",
+        "title": "Lead Developer",
+        "salary": 160946.16
+      },
+      {
+        "fromDate": "2025-05-19",
+        "toDate": "9999-12-31",
+        "title": "Project Manager",
+        "salary": 100025.12
+      }
+    ]
+  },
+  {
+    "name": "Reuben Bosco",
+    "ssn": 208939874,
+    "dob": "1961-03-17T00:00:00",
+    "address": "65934 Jaden Divide",
+    "city": "Beierland",
+    "state": "PA",
+    "zip": 92560,
+    "phonenumber": 3767618493,
+    "joinDate": "2019-03-16T00:00:00",
+    "exitDate": "0001-01-01T00:00:00",
+    "employeeSalaries": [
+      {
+        "fromDate": "2023-10-16",
+        "toDate": "9999-12-31",
+        "title": "DevOps Engineer",
+        "salary": 110760.3
+      }
+    ]
+  },
+  {
+    "name": "Caleb Buckridge",
+    "ssn": 504567125,
+    "dob": "1996-12-13T00:00:00",
+    "address": "4354 Ladarius Gateway",
+    "city": "East Estefaniahaven",
+    "state": "CO",
+    "zip": 7728,
+    "phonenumber": 3552276202,
+    "joinDate": "2023-10-16T00:00:00",
+    "exitDate": "0001-01-01T00:00:00",
+    "employeeSalaries": [
+      {
+        "fromDate": "2022-10-30",
+        "toDate": "2024-08-30",
+        "title": "Product Manager",
+        "salary": 95958.3
+      },
+      {
+        "fromDate": "2024-08-31",
+        "toDate": "9999-12-31",
+        "title": "QA Engineer",
+        "salary": 77043.96
+      }
+    ]
+  },
+  {
+    "name": "Adrian Anderson",
+    "ssn": 352884449,
+    "dob": "1994-09-21T00:00:00",
+    "address": "202 Meagan Crossing",
+    "city": "East Bert",
+    "state": "NV",
+    "zip": 48781,
+    "phonenumber": 1293467483,
+    "joinDate": "2022-10-30T00:00:00",
+    "exitDate": "0001-01-01T00:00:00",
+    "employeeSalaries": [
+      {
+        "fromDate": "2011-01-27",
+        "toDate": "9999-12-31",
+        "title": "Senior Software Engineer",
+        "salary": 140907.9
+      }
+    ]
+  },
+  {
+    "name": "Jolie Johnston",
+    "ssn": 489948103,
+    "dob": "1985-04-13T00:00:00",
+    "address": "30796 Conn Extension",
+    "city": "Gradybury",
+    "state": "MN",
+    "zip": 4528,
+    "phonenumber": 3794507790,
+    "joinDate": "2011-01-27T00:00:00",
+    "exitDate": "0001-01-01T00:00:00",
+    "employeeSalaries": [
+      {
+        "fromDate": "2024-11-05",
+        "toDate": "2027-11-05",
+        "title": "Business Analyst",
+        "salary": 100440.11
+      },
+      {
+        "fromDate": "2027-11-06",
+        "toDate": "2029-03-06",
+        "title": "DevOps Engineer",
+        "salary": 128642.99
+      },
+      {
+        "fromDate": "2029-03-07",
+        "toDate": "9999-12-31",
+        "title": "Business Analyst",
+        "salary": 75949.27
+      }
+    ]
+  },
+  {
+    "name": "Gunner Considine",
+    "ssn": 3199403,
+    "dob": "1994-12-19T00:00:00",
+    "address": "86314 Kaylah Estate",
+    "city": "Feestburgh",
+    "state": "MN",
+    "zip": 72345,
+    "phonenumber": 1363525044,
+    "joinDate": "2024-11-05T00:00:00",
+    "exitDate": "0001-01-01T00:00:00",
+    "employeeSalaries": [
+      {
+        "fromDate": "2012-08-06",
+        "toDate": "2015-05-06",
+        "title": "Senior Software Engineer",
+        "salary": 103795.05
+      },
+      {
+        "fromDate": "2015-05-07",
+        "toDate": "2016-08-07",
+        "title": "Project Manager",
+        "salary": 129871.32
+      },
+      {
+        "fromDate": "2016-08-08",
+        "toDate": "2018-07-08",
+        "title": "QA Engineer",
+        "salary": 92725.59
+      },
+      {
+        "fromDate": "2018-07-09",
+        "toDate": "9999-12-31",
+        "title": "DevOps Engineer",
+        "salary": 122264.85
+      }
+    ]
+  },
+  {
+    "name": "Camille Spinka",
+    "ssn": 113919639,
+    "dob": "1961-11-02T00:00:00",
+    "address": "497 Schowalter Mills",
+    "city": "West Patsymouth",
+    "state": "NM",
+    "zip": 41544,
+    "phonenumber": 2117991000,
+    "joinDate": "2012-08-06T00:00:00",
+    "exitDate": "0001-01-01T00:00:00",
+    "employeeSalaries": [
+      {
+        "fromDate": "2003-09-18",
+        "toDate": "2005-04-18",
+        "title": "Project Manager",
+        "salary": 105151.93
+      },
+      {
+        "fromDate": "2005-04-19",
+        "toDate": "9999-12-31",
+        "title": "QA Engineer",
+        "salary": 68785.91
+      }
+    ]
+  },
+  {
+    "name": "Terrence Marks",
+    "ssn": 848827473,
+    "dob": "1961-10-15T00:00:00",
+    "address": "916 Cecelia Lane",
+    "city": "West Clotilde",
+    "state": "CO",
+    "zip": 36873,
+    "phonenumber": 1932902212,
+    "joinDate": "2003-09-18T00:00:00",
+    "exitDate": "0001-01-01T00:00:00",
+    "employeeSalaries": [
+      {
+        "fromDate": "1999-05-30",
+        "toDate": "2000-12-30",
+        "title": "Lead Developer",
+        "salary": 173497.06
+      },
+      {
+        "fromDate": "2000-12-31",
+        "toDate": "2002-12-31",
+        "title": "Project Manager",
+        "salary": 110224.47
+      },
+      {
+        "fromDate": "2003-01-01",
+        "toDate": "9999-12-31",
+        "title": "Lead Developer",
+        "salary": 146447.62
+      }
+    ]
+  },
+  {
+    "name": "Jakob Bechtelar",
+    "ssn": 724258880,
+    "dob": "1973-12-04T00:00:00",
+    "address": "8463 Heller Causeway",
+    "city": "Waldoton",
+    "state": "MA",
+    "zip": 35476,
+    "phonenumber": 2115824961,
+    "joinDate": "1999-05-30T00:00:00",
+    "exitDate": "0001-01-01T00:00:00",
+    "employeeSalaries": [
+      {
+        "fromDate": "2022-08-29",
+        "toDate": "2025-03-29",
+        "title": "UI/UX Designer",
+        "salary": 74626.01
+      },
+      {
+        "fromDate": "2025-03-30",
+        "toDate": "9999-12-31",
+        "title": "Product Manager",
+        "salary": 123245.52
+      }
+    ]
+  },
+  {
+    "name": "Lindsey Hand",
+    "ssn": 750640819,
+    "dob": "1982-01-19T00:00:00",
+    "address": "65799 Cassie Trafficway",
+    "city": "Blandastad",
+    "state": "SD",
+    "zip": 74741,
+    "phonenumber": 6570338143,
+    "joinDate": "2022-08-29T00:00:00",
+    "exitDate": "0001-01-01T00:00:00",
+    "employeeSalaries": [
+      {
+        "fromDate": "1993-06-24",
+        "toDate": "1994-11-24",
+        "title": "Product Manager",
+        "salary": 131849.17
+      },
+      {
+        "fromDate": "1994-11-25",
+        "toDate": "9999-12-31",
+        "title": "Product Manager",
+        "salary": 102787.52
+      }
+    ]
+  },
+  {
+    "name": "Marco Batz",
+    "ssn": 701959431,
+    "dob": "1967-05-12T00:00:00",
+    "address": "53145 Domenic Rapid",
+    "city": "Williamsonfurt",
+    "state": "ID",
+    "zip": 48177,
+    "phonenumber": 5687758152,
+    "joinDate": "1993-06-24T00:00:00",
+    "exitDate": "0001-01-01T00:00:00",
+    "employeeSalaries": [
+      {
+        "fromDate": "1990-12-23",
+        "toDate": "1992-08-23",
+        "title": "QA Engineer",
+        "salary": 59404.12
+      },
+      {
+        "fromDate": "1992-08-24",
+        "toDate": "1993-10-24",
+        "title": "Data Scientist",
+        "salary": 140249.88
+      },
+      {
+        "fromDate": "1993-10-25",
+        "toDate": "9999-12-31",
+        "title": "Senior Software Engineer",
+        "salary": 130989.89
+      }
+    ]
+  },
+  {
+    "name": "Christa Greenfelder",
+    "ssn": 141592113,
+    "dob": "1968-10-27T00:00:00",
+    "address": "88012 Wiza Court",
+    "city": "Thadton",
+    "state": "MS",
+    "zip": 48347,
+    "phonenumber": 5875333402,
+    "joinDate": "1990-12-23T00:00:00",
+    "exitDate": "0001-01-01T00:00:00",
+    "employeeSalaries": [
+      {
+        "fromDate": "1990-03-23",
+        "toDate": "1991-04-23",
+        "title": "Lead Developer",
+        "salary": 131544.12
+      },
+      {
+        "fromDate": "1991-04-24",
+        "toDate": "1993-06-24",
+        "title": "QA Engineer",
+        "salary": 93482.64
+      },
+      {
+        "fromDate": "1993-06-25",
+        "toDate": "9999-12-31",
+        "title": "UI/UX Designer",
+        "salary": 73873.91
+      }
+    ]
+  },
+  {
+    "name": "Bernita Bogisich",
+    "ssn": 725355212,
+    "dob": "1961-02-21T00:00:00",
+    "address": "080 Lamar Key",
+    "city": "Douglasmouth",
+    "state": "CA",
+    "zip": 13215,
+    "phonenumber": 5720007425,
+    "joinDate": "1990-03-23T00:00:00",
+    "exitDate": "0001-01-01T00:00:00",
+    "employeeSalaries": [
+      {
+        "fromDate": "2020-05-06",
+        "toDate": "9999-12-31",
+        "title": "Software Engineer",
+        "salary": 98188.7
+      }
+    ]
+  },
+  {
+    "name": "Will Mraz",
+    "ssn": 523209347,
+    "dob": "1983-11-30T00:00:00",
+    "address": "630 Brown Center",
+    "city": "Hartmannville",
+    "state": "ID",
+    "zip": 83532,
+    "phonenumber": 2084068844,
+    "joinDate": "2020-05-06T00:00:00",
+    "exitDate": "0001-01-01T00:00:00",
+    "employeeSalaries": [
+      {
+        "fromDate": "2005-03-19",
+        "toDate": "2007-10-19",
+        "title": "Lead Developer",
+        "salary": 131772.47
+      },
+      {
+        "fromDate": "2007-10-20",
+        "toDate": "9999-12-31",
+        "title": "Product Manager",
+        "salary": 97924.98
+      }
+    ]
+  },
+  {
+    "name": "Khalil Howe",
+    "ssn": 193321716,
+    "dob": "1976-06-07T00:00:00",
+    "address": "7044 Anderson Passage",
+    "city": "East Aleen",
+    "state": "MD",
+    "zip": 18051,
+    "phonenumber": 1526920306,
+    "joinDate": "2005-03-19T00:00:00",
+    "exitDate": "0001-01-01T00:00:00",
+    "employeeSalaries": [
+      {
+        "fromDate": "2011-04-23",
+        "toDate": "2012-12-23",
+        "title": "Data Scientist",
+        "salary": 98915.58
+      },
+      {
+        "fromDate": "2012-12-24",
+        "toDate": "2014-04-24",
+        "title": "Product Manager",
+        "salary": 142719.44
+      },
+      {
+        "fromDate": "2014-04-25",
+        "toDate": "2016-01-25",
+        "title": "Project Manager",
+        "salary": 110221.18
+      },
+      {
+        "fromDate": "2016-01-26",
+        "toDate": "9999-12-31",
+        "title": "Product Manager",
+        "salary": 97398.38
+      }
+    ]
+  },
+  {
+    "name": "Darien Powlowski",
+    "ssn": 423374538,
+    "dob": "1973-10-04T00:00:00",
+    "address": "8258 Lois Trace",
+    "city": "South Geovanny",
+    "state": "ME",
+    "zip": 94937,
+    "phonenumber": 7888544689,
+    "joinDate": "2011-04-23T00:00:00",
+    "exitDate": "0001-01-01T00:00:00",
+    "employeeSalaries": [
+      {
+        "fromDate": "2023-05-14",
+        "toDate": "2024-12-14",
+        "title": "DevOps Engineer",
+        "salary": 91011.34
+      },
+      {
+        "fromDate": "2024-12-15",
+        "toDate": "2027-10-15",
+        "title": "Business Analyst",
+        "salary": 108452.81
+      },
+      {
+        "fromDate": "2027-10-16",
+        "toDate": "9999-12-31",
+        "title": "Product Manager",
+        "salary": 130655.3
+      }
+    ]
+  },
+  {
+    "name": "Justina Upton",
+    "ssn": 280199380,
+    "dob": "1966-08-08T00:00:00",
+    "address": "6296 Waters Union",
+    "city": "Scottyland",
+    "state": "NY",
+    "zip": 29318,
+    "phonenumber": 896228205,
+    "joinDate": "2023-05-14T00:00:00",
+    "exitDate": "0001-01-01T00:00:00",
+    "employeeSalaries": [
+      {
+        "fromDate": "2025-01-06",
+        "toDate": "2028-01-06",
+        "title": "Product Manager",
+        "salary": 95659.05
+      },
+      {
+        "fromDate": "2028-01-07",
+        "toDate": "9999-12-31",
+        "title": "Product Manager",
+        "salary": 123425.98
+      }
+    ]
+  },
+  {
+    "name": "Zane Lueilwitz",
+    "ssn": 71478806,
+    "dob": "2002-09-19T00:00:00",
+    "address": "97373 Norbert Manor",
+    "city": "Zulaufchester",
+    "state": "WV",
+    "zip": 42655,
+    "phonenumber": 6422240870,
+    "joinDate": "2025-01-06T00:00:00",
+    "exitDate": "0001-01-01T00:00:00",
+    "employeeSalaries": [
+      {
+        "fromDate": "2018-06-11",
+        "toDate": "2020-05-11",
+        "title": "Software Engineer",
+        "salary": 109604.13
+      },
+      {
+        "fromDate": "2020-05-12",
+        "toDate": "2021-12-12",
+        "title": "Product Manager",
+        "salary": 111245.41
+      },
+      {
+        "fromDate": "2021-12-13",
+        "toDate": "9999-12-31",
+        "title": "Business Analyst",
+        "salary": 107512.73
+      }
+    ]
+  },
+  {
+    "name": "Travon Robel",
+    "ssn": 801022984,
+    "dob": "1991-07-17T00:00:00",
+    "address": "682 Dora Extensions",
+    "city": "Stiedemannmouth",
+    "state": "NJ",
+    "zip": 77887,
+    "phonenumber": 625520227,
+    "joinDate": "2018-06-11T00:00:00",
+    "exitDate": "0001-01-01T00:00:00",
+    "employeeSalaries": [
+      {
+        "fromDate": "2023-10-31",
+        "toDate": "2026-02-28",
+        "title": "Product Manager",
+        "salary": 97062.28
+      },
+      {
+        "fromDate": "2026-03-01",
+        "toDate": "9999-12-31",
+        "title": "UI/UX Designer",
+        "salary": 98550.13
+      }
+    ]
+  },
+  {
+    "name": "King Hessel",
+    "ssn": 609659846,
+    "dob": "2001-02-22T00:00:00",
+    "address": "28368 Gutmann Greens",
+    "city": "Deonmouth",
+    "state": "HI",
+    "zip": 10796,
+    "phonenumber": 330200730,
+    "joinDate": "2023-10-31T00:00:00",
+    "exitDate": "0001-01-01T00:00:00",
+    "employeeSalaries": [
+      {
+        "fromDate": "2005-09-20",
+        "toDate": "9999-12-31",
+        "title": "Data Scientist",
+        "salary": 129351.06
+      }
+    ]
+  },
+  {
+    "name": "Christine Heaney",
+    "ssn": 28346572,
+    "dob": "1965-09-20T00:00:00",
+    "address": "45753 Buckridge Mountain",
+    "city": "Krisville",
+    "state": "NC",
+    "zip": 74261,
+    "phonenumber": 4709817807,
+    "joinDate": "2005-09-20T00:00:00",
+    "exitDate": "0001-01-01T00:00:00",
+    "employeeSalaries": [
+      {
+        "fromDate": "2014-08-28",
+        "toDate": "9999-12-31",
+        "title": "DevOps Engineer",
+        "salary": 107589.26
+      }
+    ]
+  },
+  {
+    "name": "Dannie Harvey",
+    "ssn": 470373439,
+    "dob": "1981-04-16T00:00:00",
+    "address": "134 Ozella Course",
+    "city": "Emiliachester",
+    "state": "NV",
+    "zip": 91033,
+    "phonenumber": 9450028813,
+    "joinDate": "2014-08-28T00:00:00",
+    "exitDate": "0001-01-01T00:00:00",
+    "employeeSalaries": [
+      {
+        "fromDate": "2019-06-06",
+        "toDate": "2020-11-06",
+        "title": "Senior Software Engineer",
+        "salary": 132682.06
+      },
+      {
+        "fromDate": "2020-11-07",
+        "toDate": "2023-02-07",
+        "title": "Senior Software Engineer",
+        "salary": 150859.47
+      },
+      {
+        "fromDate": "2023-02-08",
+        "toDate": "9999-12-31",
+        "title": "Product Manager",
+        "salary": 145796.19
+      }
+    ]
+  },
+  {
+    "name": "Kylie Murray",
+    "ssn": 579603219,
+    "dob": "1985-10-18T00:00:00",
+    "address": "96954 Sauer View",
+    "city": "East Reinholdhaven",
+    "state": "UT",
+    "zip": 90055,
+    "phonenumber": 6934119994,
+    "joinDate": "2019-06-06T00:00:00",
+    "exitDate": "0001-01-01T00:00:00",
+    "employeeSalaries": [
+      {
+        "fromDate": "2009-08-01",
+        "toDate": "9999-12-31",
+        "title": "DevOps Engineer",
+        "salary": 92211.17
+      }
+    ]
+  },
+  {
+    "name": "Monty Grimes",
+    "ssn": 262973513,
+    "dob": "1965-02-11T00:00:00",
+    "address": "33536 Larkin Shoals",
+    "city": "Chancebury",
+    "state": "MT",
+    "zip": 31037,
+    "phonenumber": 6840474040,
+    "joinDate": "2009-08-01T00:00:00",
+    "exitDate": "0001-01-01T00:00:00",
+    "employeeSalaries": [
+      {
+        "fromDate": "2024-08-09",
+        "toDate": "2027-03-09",
+        "title": "Senior Software Engineer",
+        "salary": 114671.39
+      },
+      {
+        "fromDate": "2027-03-10",
+        "toDate": "2029-02-10",
+        "title": "Product Manager",
+        "salary": 109234.8
+      },
+      {
+        "fromDate": "2029-02-11",
+        "toDate": "9999-12-31",
+        "title": "Senior Software Engineer",
+        "salary": 99284.2
+      }
+    ]
+  },
+  {
+    "name": "Jameson Lind",
+    "ssn": 316161832,
+    "dob": "1999-05-27T00:00:00",
+    "address": "1649 Allene Run",
+    "city": "Priceside",
+    "state": "ND",
+    "zip": 96833,
+    "phonenumber": 3060526967,
+    "joinDate": "2024-08-09T00:00:00",
+    "exitDate": "0001-01-01T00:00:00",
+    "employeeSalaries": [
+      {
+        "fromDate": "2023-07-28",
+        "toDate": "2025-05-28",
+        "title": "Product Manager",
+        "salary": 110186.38
+      },
+      {
+        "fromDate": "2025-05-29",
+        "toDate": "2026-06-29",
+        "title": "Project Manager",
+        "salary": 127815.02
+      },
+      {
+        "fromDate": "2026-06-30",
+        "toDate": "9999-12-31",
+        "title": "DevOps Engineer",
+        "salary": 106885.1
+      }
+    ]
+  },
+  {
+    "name": "Jo Cole",
+    "ssn": 590206419,
+    "dob": "2000-12-15T00:00:00",
+    "address": "894 Stanton Ville",
+    "city": "Stephanton",
+    "state": "PA",
+    "zip": 21502,
+    "phonenumber": 8658482875,
+    "joinDate": "2023-07-28T00:00:00",
+    "exitDate": "0001-01-01T00:00:00",
+    "employeeSalaries": [
+      {
+        "fromDate": "2009-08-07",
+        "toDate": "2011-07-07",
+        "title": "DevOps Engineer",
+        "salary": 100503.56
+      },
+      {
+        "fromDate": "2011-07-08",
+        "toDate": "2013-02-08",
+        "title": "QA Engineer",
+        "salary": 98001.02
+      },
+      {
+        "fromDate": "2013-02-09",
+        "toDate": "2015-11-09",
+        "title": "Data Scientist",
+        "salary": 88824.82
+      },
+      {
+        "fromDate": "2015-11-10",
+        "toDate": "9999-12-31",
+        "title": "Business Analyst",
+        "salary": 97346.2
+      }
+    ]
+  },
+  {
+    "name": "Nicholaus Bernier",
+    "ssn": 379431954,
+    "dob": "1962-08-06T00:00:00",
+    "address": "30341 McKenzie Track",
+    "city": "Boyleview",
+    "state": "VT",
+    "zip": 70120,
+    "phonenumber": 4998399835,
+    "joinDate": "2009-08-07T00:00:00",
+    "exitDate": "0001-01-01T00:00:00",
+    "employeeSalaries": [
+      {
+        "fromDate": "2023-04-10",
+        "toDate": "9999-12-31",
+        "title": "Project Manager",
+        "salary": 133231.66
+      }
+    ]
+  }
 ]

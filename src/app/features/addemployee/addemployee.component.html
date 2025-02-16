@@ -95,6 +95,29 @@
                 </mat-form-field>
 
                 <mat-form-field appearance="outline">
+                    <mat-label>From Date</mat-label>
+                    <input matInput [matDatepicker]="fromDatePicker" formControlName="fromDate">
+                    <mat-datepicker-toggle matSuffix  [for]="fromDatePicker"></mat-datepicker-toggle>
+                    <mat-datepicker #fromDatePicker></mat-datepicker>
+                    <mat-error *ngIf="employeeForm.get('fromDate')?.hasError('required')">
+                        From Date is required
+                    </mat-error>
+                </mat-form-field>
+
+                <mat-form-field appearance="outline">
+                    <mat-label>To Date</mat-label>
+                    <input matInput [matDatepicker]="toDatePicker" formControlName="toDate">
+                    <mat-datepicker-toggle matSuffix  [for]="toDatePicker"></mat-datepicker-toggle>
+                    <mat-datepicker #toDatePicker></mat-datepicker>
+                    <mat-error *ngIf="employeeForm.get('toDate')?.hasError('required')">
+                        To Date is required
+                    </mat-error>
+                    <mat-error *ngIf="employeeForm.get('toDate')?.hasError('toDateInvalid')">
+                        To Date must me later than From Date
+                    </mat-error>
+                </mat-form-field>
+
+                <mat-form-field appearance="outline">
                     <mat-label>Salary</mat-label>
                     <input matInput type="number" formControlName="salary">
                     <span matPrefix>$&nbsp;</span>

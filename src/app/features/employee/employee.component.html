@@ -8,14 +8,19 @@
             <div class="actions-container">
                 <mat-form-field appearance="outline">
                     <mat-label>Search Employees by Name and/or Title</mat-label>
-                    <input matInput (keyup)="applyFilter($event)" placeholder="Type to search by name and/or title">
+                    <input #searchInput matInput (keyup.enter)="applyFilter(searchInput.value)" placeholder="Type to search by name and/or title">
                     <mat-icon matTooltip = "Search works only for Name and/or Title"
                         matTooltipPosition="below"
-                        matPrefix>info_outline</mat-icon>
-                    <mat-icon matSuffix>search</mat-icon>
+                        matPrefix>info_outline
+                    </mat-icon>
+                    <button mat-icon-button matSuffix [disabled]="!searchInput.value" [class.active-search]="searchInput.value"
+                        (click)="applyFilter(searchInput.value)">
+                        <mat-icon [class.search-active]="searchInput.value">search</mat-icon>
+                    </button>
+                    
                 </mat-form-field>
 
-                <button mat-raised-button color="cyan" (click)="openAddDialog()">
+                <button mat-raised-button color="cyan" (click)="openTitleListDialog()">
                     <mat-icon>list</mat-icon>
                     Tittle List
                 </button>
@@ -29,28 +34,28 @@
             <div class="mat-elevation-z8 table-container">
                 <table mat-table [dataSource]="dataSource" matSort>
                     <ng-container matColumnDef="name">
-                        <th mat-header-cell *matHeaderCellDef mat-sort-header> Name </th>
-                        <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+                        <th mat-header-cell *matHeaderCellDef mat-sort-header sticky> Name </th>
+                        <td mat-cell *matCellDef="let element" sticky> {{element.name}} </td>
                     </ng-container>
 
                     <ng-container matColumnDef="dob">
-                        <th mat-header-cell *matHeaderCellDef mat-sort-header> Date of Birth </th>
-                        <td mat-cell *matCellDef="let element"> {{element.dob}} </td>
+                        <th mat-header-cell *matHeaderCellDef mat-sort-header sticky> Date of Birth </th>
+                        <td mat-cell *matCellDef="let element" sticky> {{element.dob}} </td>
                     </ng-container>
 
                     <ng-container matColumnDef="joinDate">
-                        <th mat-header-cell *matHeaderCellDef mat-sort-header> Join Date </th>
-                        <td mat-cell *matCellDef="let element"> {{element.joinDate}} </td>
+                        <th mat-header-cell *matHeaderCellDef mat-sort-header sticky> Join Date </th>
+                        <td mat-cell *matCellDef="let element" sticky> {{element.joinDate}} </td>
                     </ng-container>
 
                     <ng-container matColumnDef="currentTitle">
-                        <th mat-header-cell *matHeaderCellDef mat-sort-header> Title </th>
-                        <td mat-cell *matCellDef="let element"> {{element.title}} </td>
+                        <th mat-header-cell *matHeaderCellDef mat-sort- sticky> Title </th>
+                        <td mat-cell *matCellDef="let element" sticky> {{element.title}} </td>
                     </ng-container>
 
                     <ng-container matColumnDef="currentSalary" style="text-align: center;">
-                        <th mat-header-cell *matHeaderCellDef mat-sort-header> Salary </th>
-                        <td mat-cell *matCellDef="let element"> {{element.salary | currency}} </td>
+                        <th mat-header-cell *matHeaderCellDef mat-sort-header sticky> Salary </th>
+                        <td mat-cell *matCellDef="let element" sticky> {{element.salary | currency}} </td>
                     </ng-container>
 
                     <ng-container matColumnDef="actions">
@@ -76,7 +81,7 @@
                         </td>
                     </ng-container>
 
-                    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+                    <tr mat-header-row *matHeaderRowDef="displayedColumns; sticky: true"></tr>
                     <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
                 </table>
 

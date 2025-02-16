@@ -17,6 +17,7 @@ import { EmployeeService } from '../../core/services/employeeService/employee.se
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 import { Observable} from 'rxjs';
 import { Employee } from '../../core/models/employee.model';
+import { toDateValidator } from '../../shared/Validators/toDateValidator';
 
 @Component({
   selector: 'app-addemployee',
@@ -61,25 +62,27 @@ export class AddemployeeComponent {
       phone: ['', [Validators.required, Validators.minLength(10), Validators.maxLength(10), Validators.pattern('^[0-9]*$')]],
       joinDate:['', [Validators.required, ]],
       title: ['', [Validators.required]],
+      fromDate: ['', [Validators.required]],
+      toDate: ['', [Validators.required]],
       salary: ['', [Validators.required, Validators.min(0)]]
-    });
+    }, toDateValidator());
   }
 
   mapEmployee(employeeForm: any): Employee {
     let employee: Employee = {
       name : employeeForm.name,
       ssn : employeeForm.ssn,
-      dob: new Date(employeeForm.dob).toLocaleDateString(),
+      dob: new Date(employeeForm.dob).toISOString().split('T')[0],
       address : employeeForm.address,
       city : employeeForm.city,
       state : employeeForm.state,
       zip : employeeForm.zip,
       phonenumber : employeeForm.phone,
-      joinDate : new Date(employeeForm.joinDate).toLocaleDateString(),
+      joinDate : new Date(employeeForm.joinDate).toISOString().split('T')[0],
       employeeSalaries: [
         {
-          fromDate: new Date().toLocaleDateString(),
-          toDate : new Date().toLocaleDateString(),
+          fromDate: new Date(employeeForm.fromDate).toISOString().split('T')[0],
+          toDate : new Date(employeeForm.toDate).toISOString().split('T')[0],
           title : employeeForm.title,
           salary : employeeForm.salary
         }

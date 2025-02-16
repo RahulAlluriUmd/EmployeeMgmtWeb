@@ -25,3 +25,9 @@ export interface EmployeeSalaryDto {
     title: string;
     salary: number;
 }
+
+export interface TitleList {
+    title: string;
+    minSalary: number;
+    maxSalary: number;
+}

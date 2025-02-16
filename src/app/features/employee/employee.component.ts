@@ -14,12 +14,14 @@ import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core';
 import { MatSnackBar, MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatMenuModule } from '@angular/material/menu';
-import { Employee, EmployeeSalaryDto } from '../../core/models/employee.model';
+import { Employee, EmployeeSalaryDto, TitleList } from '../../core/models/employee.model';
 import { EmployeeService } from '../../core/services/employeeService/employee.service';
 import { AddemployeeComponent } from '../addemployee/addemployee.component';
 import { Title } from '@angular/platform-browser';
 import { DialogComponent } from '../dialog/dialog.component';
 import { DialogData } from '../../core/models/dialogData';
+import { TitleListComponent } from '../title-list/title-list.component';
+import { map, Observable } from 'rxjs';
 
 @Component({
   selector: 'app-employee',
@@ -70,8 +72,8 @@ export class EmployeeComponent implements OnInit, AfterViewInit {
     );
   }
 
-  applyFilter(event: Event) {
-    const filterValue = (event.target as HTMLInputElement).value;
+  applyFilter(searchInput: string) {
+    const filterValue = searchInput;
     this.employeeService.getEmployeeList(filterValue, filterValue).subscribe(
       data => {
         if (data.length > 0) {
@@ -96,6 +98,22 @@ export class EmployeeComponent implements OnInit, AfterViewInit {
     }
   }
 
+  loadEmployeeList(): Observable<TitleList[]> {
+
+    return this.employeeService.getTitleList().pipe(
+      map(data => {
+        if (data.length > 0) {
+          return (data as TitleList[])
+        }
+        else {
+          this.openNoResultDialog();
+          return ([] as TitleList[])
+        }
+      })
+    );
+
+  }
+
   openAddDialog(): void {
     const dialogRef = this.dialog.open(AddemployeeComponent, {
       width: '600px'
@@ -106,6 +124,17 @@ export class EmployeeComponent implements OnInit, AfterViewInit {
         this.loadEmployees();
       }
     });
+  }
+
+  openTitleListDialog(): void {
+    this.loadEmployeeList().subscribe(
+      titleList => {
+        const dialogRef = this.dialog.open(TitleListComponent, {
+          width: '800px',
+          data: titleList
+        });
+      }
+    )
   }
 
   openNoResultDialog(): void {
